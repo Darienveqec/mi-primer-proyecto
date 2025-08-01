@@ -2,37 +2,90 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mi Página Web - Darien</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Web</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    img { max-width: 150px; border-radius: 50%; }
-    ul { list-style-type: square; }
-    a { color: #0078d7; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #005f73;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      background-color: white;
+      padding: 2em;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      display: block;
+      max-width: 150px;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0a9396;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Hola, soy Darien Lombeyda</h1>
+  <header>
+    <h1>Bienvenido a mi página personal</h1>
+  </header>
 
-  <img src="img/perfil.jpg" alt="Foto de Darien Lombeyda" />
+  <div class="container">
+    <img src="img/foto_proyecto.png" alt="Foto de perfil" />
 
-  <h2>Biografía</h2>
-  <p>Soy estudiante de desarrollo web, aprendiendo a usar Git y GitHub para controlar versiones y publicar proyectos.</p>
+    <h2>Sobre mí</h2>
+    <p>
+      ¡Hola! Me llamo Darien y soy estudiante de <strong>Ingeniería en Software</strong>. Me apasiona la tecnología, el desarrollo web y aprender nuevas habilidades que me ayuden a crear soluciones digitales.
+    </p>
 
-  <h2>Intereses y habilidades</h2>
-  <ul>
-    <li>HTML y CSS</li>
-    <li>JavaScript básico</li>
-    <li>Control de versiones con Git</li>
-    <li>Trabajo colaborativo</li>
-  </ul>
+    <h2>Habilidades e intereses</h2>
+    <ul>
+      <li>Programación en Python y C++</li>
+      <li>Diseño de páginas web</li>
+      <li>Control de versiones con Git y GitHub</li>
+      <li>Resolución de problemas</li>
+      <li>Trabajo en equipo</li>
+    </ul>
 
-  <h2>Redes</h2>
-  <p>Visita mi perfil en <a href="https://github.com/Darienveqec" target="_blank">GitHub</a> o en <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>.</p>
+    <h2>Conéctate conmigo</h2>
+    <p>
+      Puedes visitar mi perfil de GitHub:
+      <a href="https://github.com/Darienveqec" target="_blank">Darienveqec</a>
+    </p>
+  </div>
 </body>
 </html>
-<img src="img/foto_proyecto" alt="Foto de perfil" />
+
 
 
 
